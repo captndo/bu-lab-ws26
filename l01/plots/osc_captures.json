@@ -1,0 +1,50 @@
+[
+  {
+    "distance": 10,
+    "file": "10cm.png"
+  },
+  {
+    "distance": 20,
+    "file": "20cm.png"
+  },
+  {
+    "distance": 25,
+    "file": "25cm.png"
+  },
+  {
+    "distance": 27,
+    "file": "27cm.png"
+  },
+  {
+    "distance": 30,
+    "file": "30cm.png"
+  },
+  {
+    "distance": 40,
+    "file": "40cm.png"
+  },
+  {
+    "distance": 50,
+    "file": "50cm.png"
+  },
+  {
+    "distance": 75,
+    "file": "75cm.png"
+  },
+  {
+    "distance": 100,
+    "file": "100cm.png"
+  },
+  {
+    "distance": 150,
+    "file": "150cm.png"
+  },
+  {
+    "distance": 160,
+    "file": "160cm.png"
+  },
+  {
+    "distance": 200,
+    "file": "200cm.png"
+  }
+]
