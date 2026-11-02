@@ -5,7 +5,7 @@
   lab-id: "Lab N1",
   course: "BUL — WS26",
   authors: (
-    (name: "Hezz", id: "xxxxxxx"),
+    (name: "Hesandi Samarathunga", id: "2756611"),
     (name: "Stilian Dimitrov", id: "2914332"),
   ),
   instructor: "Prof. Dr. Rasmus Rettig",
