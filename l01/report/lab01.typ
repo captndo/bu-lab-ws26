@@ -336,18 +336,19 @@ The centre of a visible band would approximate a waveform mean only if the fluct
   ) <tab:visual-estimates>]
 }
 
+#report-figure(
+  image("../plots/osc_stats_plot.svg", height: 40%),
+  [Recorded maxima and visual mean/minimum estimates compared with the multimeter readings and expected characteristic.],
+) <fig:visual-statistics>
+
 @fig:estimate25, @fig:estimate50, @fig:estimate100, @fig:estimate150, and @fig:estimate200 show the annotated screenshots used to illustrate the estimates. The red annotation identifies the recorded maximum, while the green and orange annotations mark the visual trace-centre and lower-edge estimates. The existing image labels call these estimates "mean" and "min"; they are interpreted here with the limitations described above. The annotations retain the original estimated values, whereas @tab:visual-estimates rounds them to the nearest 10 mV.
 
 #let estimate-capture(distance) = report-figure(
   image("../data/osc/annotated/" + str(distance) + "cm.png", width: 90%),
   [Annotated acquisition at #distance cm showing the recorded maximum and the visual trace-centre and lower-edge estimates.],
 )
-
-#pagebreak(weak: true)
 #estimate-capture(25) <fig:estimate25>
 #estimate-capture(50) <fig:estimate50>
-#pagebreak(weak: true)
 #estimate-capture(100) <fig:estimate100>
 #estimate-capture(150) <fig:estimate150>
-#pagebreak(weak: true)
 #estimate-capture(200) <fig:estimate200>
